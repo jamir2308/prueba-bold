@@ -1,0 +1,33 @@
+//Fonts
+@font-face {
+  font-family: "Montserrat-Light";
+  src: local("Montserrat-Light"), url(../../assets/fonts/Montserrat-Light.ttf);
+}
+
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: local("Montserrat-Regular"), url(../../assets/fonts/Montserrat-Medium.ttf);
+}
+
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: local("Montserrat-Bold"), url(../../assets/fonts/Montserrat-Bold.ttf);
+}
+
+
+//Colors
+$blue: #111e6c;
+$red:  #ef434e;
+$dark-gray: #323232;
+$ligth-grey: #969696;
+$background: #e5e7ef;
+
+
+//Mixins
+
+@mixin flexRow($direction, $justify: center) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justify;
+  align-items: center;
+}

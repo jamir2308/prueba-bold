@@ -1,0 +1,53 @@
+@import "../../../assets/styles/styles.scss";
+
+
+.menu-title {
+    display: flex;
+    align-items: center;
+    justify-content: center !important;
+    text-align: center !important;
+    padding: 5%;
+    color: $blue;
+    
+}
+
+.menu-container-button {
+    display: flex;
+    align-items: center;
+    justify-content: center !important;
+    text-align: center !important;
+    width: 300px;
+}
+.menu-buttom {
+    background-color: $red;
+    border-radius: 30px;
+    border: none;
+    margin-top: 20px;
+    width: 30%;
+    height: 45px;
+    @include flexRow(row,center);
+    color: $blue;
+    font-family: Montserrat-Regular;
+    gap: 4px;
+    cursor: pointer;
+    width: 80%;
+}
+
+.menu-text-bold {
+    font-family: Montserrat-Regular !important;
+    font-weight: bold !important;
+}
+
+@media screen and (max-width: 600px) {
+    .filter{
+        @include flexRow(column,center);
+        padding: 2px;
+    }
+}
+
+@media screen and (max-width: 1000px) and (min-width: 600px) {
+    .filter{
+        @include flexRow(column,center);
+        padding: 2px;
+    }
+}

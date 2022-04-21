@@ -1,0 +1,63 @@
+@import "../../assets/styles/styles.scss";
+
+.table {
+    margin: 0 5% 30px 5%;
+    color: white;
+    border-radius: 15px !important;
+    font-size: 30px;
+    font-family: Montserrat-Regular !important;
+}
+
+.table-container-title {
+    background: linear-gradient(82deg, $blue 50%, $red 190%);
+}
+
+.table-head {
+    color: $blue !important;
+    font-weight: 400 !important;
+}
+
+.css-1t29gy6-MuiToolbar-root {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    color: white;
+    min-height: 40px !important;
+    
+}
+
+.table-logo {
+    width: 20px;
+}
+
+.table-body {
+    color: $blue !important;
+    overflow-y: auto !important;
+}
+
+.table-border-blue {
+    border-left: 10px solid $blue;
+}
+
+.table-border-grey {
+    border-left: 10px solid $ligth-grey;
+}
+
+.table-text-blue {
+    color: $blue !important;
+    font-style: Montserrat-Bold !important;
+    font-weight: bold !important;
+}
+
+.table-text-grey {
+    color: $ligth-grey !important;
+    font-style: Montserrat-Bold;
+}
+
+.table-row-column {
+    display: flex;
+    padding: 2px;
+}
+
+.table-text-red {
+    color: $red;
+}

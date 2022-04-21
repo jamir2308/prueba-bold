@@ -1,0 +1,50 @@
+@import "../../../assets/styles/styles.scss";
+
+.card{
+    height: 26vh;
+    width: 350px;
+    border-radius: 20px !important;
+}
+
+.card-header{
+    background: linear-gradient(82deg, $blue -50%, $red 150%);
+    height: 9vh;
+    @include flexRow(row);
+    color: white;
+    gap: 6px;
+}
+
+.card-body{
+    @include flexRow(column);
+    text-align: center;
+    padding-top: 15px;
+}
+
+.card-body-total{
+    background: linear-gradient(82deg, $blue -50%, $red 150%);
+    -webkit-background-clip: text;
+    color: transparent; 
+    // color: #8a325c;
+    font-family: Montserrat-Bold;
+    font-size: 30px;
+}
+
+.card-body-date{
+    color: $blue;
+}
+
+
+@media screen and (max-width: 600px){
+    .card{
+        height: 26vh;
+        width: 300px;
+        border-radius: 20px !important;
+    }
+}
+
+@media screen and (max-width: 1000px) and (min-width: 600px) {
+    .filter{
+        @include flexRow(column,center);
+        padding: 2px;
+    }
+}
