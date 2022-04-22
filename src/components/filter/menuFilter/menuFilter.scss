@@ -26,7 +26,7 @@
     width: 30%;
     height: 45px;
     @include flexRow(row,center);
-    color: $blue;
+    color: white;
     font-family: Montserrat-Regular;
     gap: 4px;
     cursor: pointer;
@@ -34,7 +34,7 @@
 }
 
 .menu-text-bold {
-    font-family: Montserrat-Regular !important;
+    font-family: Montserrat-Light !important;
     font-weight: bold !important;
 }
 

@@ -48,3 +48,11 @@
         padding: 2px;
     }
 }
+
+@media screen and (min-width: 1000px){
+    .card{
+        height: 26vh;
+        width: 250px;
+        border-radius: 20px !important;
+    }
+}

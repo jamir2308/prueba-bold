@@ -45,6 +45,7 @@
     .tab-seleted {
         width: 100%;
         height: 50px;
+        background-color: $ligth-grey;
     }
 }
 
@@ -63,5 +64,24 @@
     .tab-seleted {
         width: 100%;
         height: 50px;
+        background-color: $ligth-grey;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .tabs {
+        width: 600px;
+        height: 45px;
+        background-color: white;
+        @include flexRow(row, center);
+    }
+
+    .tab-button {
+        width: 100%;
+        height: 35px;
+    }
+    .tab-seleted {
+        width: 100%;
+        height: 35px;
     }
 }
