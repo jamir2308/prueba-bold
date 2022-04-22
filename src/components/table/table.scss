@@ -10,19 +10,15 @@
 
 .table-container-title {
     background: linear-gradient(82deg, $blue 50%, $red 190%);
+    border-top-left-radius: 15px !important;
+    border-top-right-radius: 15px !important;
+    color: white !important;
+    min-height: 40px !important;
 }
 
 .table-head {
     color: $blue !important;
     font-weight: 400 !important;
-}
-
-.css-1t29gy6-MuiToolbar-root {
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    color: white;
-    min-height: 40px !important;
-    
 }
 
 .table-logo {
